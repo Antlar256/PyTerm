@@ -1,0 +1,23 @@
+[project]
+name = "PyTermint"
+version = "0.0.1"
+authors = [
+  { name="Antlar256", email="antonio0granell2@gmail.com" },
+]
+description = "A terminal interface that abstracts it into a tilemap."
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[project.urls]
+Homepage = "https://github.com/Antlar256/PyTerm"
+Issues = "https://github.com/Antlar256/PyTerm/issues"
